@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Explore sem limites</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="images/astronaut.png" alt="Astronauta" id="astronaut" />
+        <div class="title-link">
+          <div class="title-paragraph">
+            <h1>Explore sem limites</h1>
+            <p>Porque o aprendizado é contínuo</p>
+          </div>
+          <a href="#contact" tabindex="1">
+            <img
+              src="images/arrow.png"
+              alt="Seta apontando para baixo"
+              id="arrow"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="clue">
+        <div class="clue-container" tabindex="2">
+          <div class="planet">
+            <img src="images/planet01.png" alt="Planeta Laranja" />
+          </div>
+          <div class="clue-title-paragraph">
+            <h2>Não pare nunca</h2>
+            <p>
+              Se você deseja ter sucesso nos estudos, é fundamental que você
+              adote uma mentalidade de "não pare nunca". Estudar de forma
+              consistente e contínua é a chave para o progresso e a conquista de
+              seus objetivos.
+            </p>
+          </div>
+        </div>
+
+        <div class="clue-container" tabindex="3">
+          <div class="planet">
+            <img src="images/planet02.png" alt="Planeta Azul" />
+          </div>
+          <div class="clue-title-paragraph">
+            <h2>Só volta</h2>
+            <p>
+              Se você parou ou perdeu o ritmo em alguma atividade ou projeto,
+              saiba que nunca é tarde para recomeçar. Às vezes, as
+              circunstâncias podem mudar, ou podemos nos sentir desmotivados ou
+              sobrecarregados.
+            </p>
+          </div>
+        </div>
+
+        <div class="clue-container" tabindex="4">
+          <div class="planet">
+            <img src="images/planet03.png" alt="Planeta Rosa" />
+          </div>
+          <div class="clue-title-paragraph">
+            <h2>Siga seu ritmo</h2>
+            <p>
+              Avançar pouco a pouco mantém progresso constante em objetivos,
+              evitando parar ou desistir. Mesmo pequenos passos nos aproximam do
+              destino e motivam a continuidade. Não subestime o poder de cada
+              ação rumo ao objetivo final.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Entre em contato</h2>
+        <form>
+          <div class="input-wrapper">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Seu nome"
+              tabindex="5"
+            />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              tabindex="6"
+            />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="message">Campo de mensagem</label>
+            <textarea
+              tabindex="7"
+              name="message"
+              id="message"
+              placeholder="Digite sua mensagem aqui..."
+            ></textarea>
+          </div>
+          <button tabindex="8" type="submit">Enviar Mensagem</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Desenvolvido por <strong>Matheus Monteiro</strong> &copy; 2023 -
+        Rocketseat Explorer
+      </p>
+    </footer>
+  </body>
+</html>
