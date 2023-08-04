@@ -155,14 +155,32 @@ main {
 }
 
 .clue-container .planet {
-  --translateX: 100%;
-  animation: move 2s ease-in-out;
+  --translateX: 200%;
+  --delay: 1.5s;
+  animation: move 2s var(--delay) cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
 }
 
 .clue-container img {
   width: 100%;
   max-width: 8rem;
-  animation: rotate-planet 2s ease-in-out;
+  --delay: 1.5s;
+  animation: rotate-planet 2s var(--delay) backwards;
+}
+
+#clue .clue-container:nth-child(2) .planet {
+  --delay: 2.5s;
+}
+
+#clue .clue-container:nth-child(2) img {
+  --delay: 2.5s;
+}
+
+#clue .clue-container:nth-child(3) .planet {
+  --delay: 3.5s;
+}
+
+#clue .clue-container:nth-child(3) img {
+  --delay: 3.5s;
 }
 
 .clue-title-paragraph {
